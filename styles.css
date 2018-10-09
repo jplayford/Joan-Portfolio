@@ -4,6 +4,7 @@ h1{
   color: darkblue;
   text-align: center;
 }
+/*Note: This is for the two column list format.*/
 *{
   box-sizing: border-box;
 }
@@ -17,4 +18,10 @@ h1{
   content: "";
   display: table;
   clear: both;
+}
+/*End of two column list*/
+body{
+  background-image: url("images/background_image.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
