@@ -4,6 +4,16 @@ h1{
   color: darkblue;
   text-align: center;
 }
+h2{
+  font-family: "courrier new", monospace;
+  color: #A40856;
+}
+h3{
+  color:#0404DB;
+}
+h4{
+  font-size: 25px;
+}
 /*Note: This is for the two column list format.*/
 *{
   box-sizing: border-box;
@@ -13,6 +23,7 @@ h1{
   width: 50%;
   padding: 10px;
   height: 200px;
+  color: #5400A8;
 }
 .row::after {
   content: "";
@@ -24,4 +35,8 @@ body{
   background-image: url("images/background_image.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+}
+img{
+  height: 300px;
+  width: 225px;
 }
