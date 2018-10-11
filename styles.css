@@ -11,8 +11,29 @@ h2{
 h3{
   color:#0404DB;
 }
+.color{
+  color: purple;
+}
 h4{
   font-size: 25px;
+  color: #0099ff;
+}
+h5{
+  font-size: 25px;
+  color:  #ff00ff;
+}
+h6{
+  font-size: 40px;
+  color: yellow;
+  margin-bottom: 15px;
+}
+h7{
+  font-size: 24px;
+  color: darkblue;
+}
+ol{
+  font-size: 30px;
+  color: blue;
 }
 /*Note: This is for the two column list format.*/
 *{
@@ -23,7 +44,6 @@ h4{
   width: 50%;
   padding: 10px;
   height: 200px;
-  color: #5400A8;
 }
 .row::after {
   content: "";
@@ -39,4 +59,27 @@ body{
 img{
   height: 300px;
   width: 225px;
+}
+ol{
+  list-style-type: upper-roman;
+}
+/*Table CSS Code. */
+#table{
+  border-collapse: collapse;
+  width: 100%;
+  padding-bottom: 100px;
+}
+#table td, #table th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+#table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: pink;
+    color: purple;
+}
+iframe{
+  width: 50%;
 }
