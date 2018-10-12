@@ -3,6 +3,7 @@ h1{
   text-shadow: 2px 3px lightblue;
   color: darkblue;
   text-align: center;
+  background-image: linear-gradient(pink,blue);
 }
 h2{
   font-family: "courrier new", monospace;
@@ -21,6 +22,9 @@ h4{
 h5{
   font-size: 25px;
   color:  #ff00ff;
+}
+a{
+  font-size: 20px;
 }
 h6{
   font-size: 40px;
@@ -60,7 +64,7 @@ img{
   height: 300px;
   width: 225px;
 }
-ol{
+/* ordered list*/ ol{
   list-style-type: upper-roman;
 }
 /*Table CSS Code. */
@@ -72,14 +76,16 @@ ol{
 #table td, #table th {
   border: 1px solid #ddd;
   padding: 8px;
+  color: #e83acb;
 }
 #table th {
     padding-top: 12px;
     padding-bottom: 12px;
     text-align: left;
-    background-color: pink;
-    color: purple;
+    background-image: linear-gradient(to right,blue,purple);
+    color: lightblue;
 }
+/* end of Table CSS code. */
 iframe{
   width: 50%;
 }
